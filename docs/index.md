@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /library/
+      link: /library/javascript/index
     - theme: alt
       text: Github
       link: https://github.com/cmtlyt/document
