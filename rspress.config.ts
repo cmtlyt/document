@@ -8,8 +8,8 @@ export default defineConfig({
   description: 'cmtlyt的编程文档',
   icon: '/rspress-icon.png',
   logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
+    light: '/rspress-icon.png',
+    dark: '/rspress-icon.png',
   },
   themeConfig: {
     socialLinks: [
@@ -19,5 +19,9 @@ export default defineConfig({
         content: 'https://github.com/cmtlyt/document',
       },
     ],
+    nextPageText: '下一篇',
+    prevPageText: '上一篇',
+    outlineTitle: '导航',
+    enableContentAnimation: true,
   },
 })

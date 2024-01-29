@@ -7,11 +7,11 @@ hero:
   tagline: CL Document tagline
   actions:
     - theme: brand
-      text: Quick Start
-      link: /guide/
+      text: 快速开始
+      link: /library/
     - theme: alt
       text: Github
-      link: https://github.com/web-infra-dev/rspress
+      link: https://github.com/cmtlyt/document
   image:
     src: /rspress-icon.png
     alt: CL Document Logo

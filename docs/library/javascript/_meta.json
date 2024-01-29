@@ -1,0 +1,18 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "简介"
+  },
+  {
+    "type": "file",
+    "name": "arrayFunc",
+    "label": "数组方法"
+  },
+  {
+    "type": "dir",
+    "name": "codeSnippets",
+    "label": "代码片段",
+    "collapsed": true
+  }
+]
