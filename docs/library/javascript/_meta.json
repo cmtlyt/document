@@ -20,6 +20,11 @@
     "label": "执行栈和执行上下文"
   },
   {
+    "type": "file",
+    "name": "promise",
+    "label": "Promise"
+  },
+  {
     "type": "dir",
     "name": "codeSnippets",
     "label": "代码片段",
