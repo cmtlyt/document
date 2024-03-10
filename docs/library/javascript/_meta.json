@@ -15,6 +15,11 @@
     "label": "数据类型转换"
   },
   {
+    "type": "file",
+    "name": "执行栈和执行上下文",
+    "label": "执行栈和执行上下文"
+  },
+  {
     "type": "dir",
     "name": "codeSnippets",
     "label": "代码片段",
