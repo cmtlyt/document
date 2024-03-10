@@ -10,6 +10,11 @@
     "label": "数组方法"
   },
   {
+    "type": "file",
+    "name": "dataTransform",
+    "label": "数据类型转换"
+  },
+  {
     "type": "dir",
     "name": "codeSnippets",
     "label": "代码片段",
