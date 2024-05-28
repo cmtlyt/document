@@ -3,5 +3,15 @@
     "type": "dir",
     "name": "javascript",
     "label": "JS"
+  },
+  {
+    "type": "divider",
+    "dashed": true
+  },
+  {
+    "type": "dir",
+    "name": "wiki",
+    "label": "百科",
+    "collapsed": true
   }
 ]
