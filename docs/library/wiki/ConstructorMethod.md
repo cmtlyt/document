@@ -71,3 +71,31 @@ ClassElementList 就是一个 class 元素列表, 如果返回 class 元素列�
 ClassElement 的返回值为一个数组那就是 ClassElementList 了, 只是底层会被识别为 ClassElementList 罢了
 
 对于我们使用者来说的话, ClassElementList 和 ClassElement 没啥区别
+
+## 补充
+
+当然不仅是 class 的 constructor 满足这个返回规则, function 类也满足这个返回值的规则
+
+```js
+const obj = {}
+
+class A {
+  constructor() {
+    this.value = 'test-A'
+    return obj
+  }
+}
+
+function B() {
+  this.value = 'test-B'
+  return obj
+}
+
+const a = new A()
+const b = new B()
+
+console.log(a.value) // undefined
+console.log(b.value) // undefined
+
+console.log(a === b) // true
+```
